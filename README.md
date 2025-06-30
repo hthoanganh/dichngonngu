@@ -79,7 +79,11 @@ your-project-folder/
 python main.py
 ```
 **6. Video
-![Hoang Anh's language translation app_ảnh bìa](https://github.com/user-attachments/assets/a57d2ecb-f2b2-493c-88d2-8fb477eb43ed)
+
 
 ---
+
+https://github.com/user-attachments/assets/9e9501b4-129d-401f-bae6-0d64fad211d5
+
+
 Thank you for checking out this project!
