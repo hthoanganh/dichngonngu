@@ -6,7 +6,7 @@ A desktop translation application built with Python and the PyQt5 library. The p
 ## 📸 Demo / Screenshots
 
 **Main Translation Interface:**
-![Screenshot 2025-06-25 211657](https://github.com/user-attachments/assets/c2a8ddb8-3fdd-46ae-a858-8bfb59e86748)
+![Hoang Anh's language translation app_ảnh bìa](https://github.com/user-attachments/assets/214b5872-af6c-4ed4-a63c-c82a7d7bc023)
 
 *An animated GIF demonstrating the auto-translation feature would be very impressive here!*
 
@@ -78,6 +78,8 @@ your-project-folder/
 ```bash
 python main.py
 ```
+**6. Video
+![Hoang Anh's language translation app_ảnh bìa](https://github.com/user-attachments/assets/a57d2ecb-f2b2-493c-88d2-8fb477eb43ed)
 
 ---
 Thank you for checking out this project!
