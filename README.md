@@ -7,6 +7,9 @@ A desktop translation application built with Python and the PyQt5 library. The p
 
 **Main Translation Interface:**
 *An animated GIF demonstrating the auto-translation feature would be very impressive here!*
+![loading](https://github.com/user-attachments/assets/0639ee44-e611-49e4-8f4e-cb54549d552c)
+
+
 **Translation History Window:**
 ## ✨ Key Features
 
