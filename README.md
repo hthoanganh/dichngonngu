@@ -1,4 +1,4 @@
-# Ứng dụng Dịch thuật Đa ngôn ngữ
+# Ứng dụng Dịch thuật Đa ngôn ngữ của Hoàng Anh / Hoang Anh's language translation app
 ![Python](https://img.shields.io/badge/python-3.x-blue.svg) ![PyQt5](https://img.shields.io/badge/Qt-PyQt5-green.svg) ![API](https://img.shields.io/badge/API-Google_Translate-red.svg)
 
 Một ứng dụng dịch thuật desktop được xây dựng bằng Python và thư viện PyQt5. Chương trình cho phép người dùng dịch văn bản giữa nhiều ngôn ngữ khác nhau một cách nhanh chóng và trực quan, sử dụng Google Translate API làm backend. Ứng dụng cũng đi kèm các tính năng tiện ích như tự động phát hiện ngôn ngữ, hoán đổi ngôn ngữ và lưu trữ lịch sử dịch.
