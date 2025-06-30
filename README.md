@@ -1,63 +1,63 @@
 # Ứng dụng Dịch thuật Đa ngôn ngữ của Hoàng Anh / Hoang Anh's language translation app
 ![Python](https://img.shields.io/badge/python-3.x-blue.svg) ![PyQt5](https://img.shields.io/badge/Qt-PyQt5-green.svg) ![API](https://img.shields.io/badge/API-Google_Translate-red.svg)
 
-Một ứng dụng dịch thuật desktop được xây dựng bằng Python và thư viện PyQt5. Chương trình cho phép người dùng dịch văn bản giữa nhiều ngôn ngữ khác nhau một cách nhanh chóng và trực quan, sử dụng Google Translate API làm backend. Ứng dụng cũng đi kèm các tính năng tiện ích như tự động phát hiện ngôn ngữ, hoán đổi ngôn ngữ và lưu trữ lịch sử dịch.
+A desktop translation application built with Python and the PyQt5 library. The program allows users to translate text between various languages quickly and intuitively, using the Google Translate API as the backend. The application also comes with useful features such as automatic language detection, language swapping, and translation history.
 
-## 📸 Hình ảnh Demo
+## 📸 Demo / Screenshots
 
-**Giao diện dịch chính:**
-*Một ảnh GIF thể hiện chức năng dịch tự động sẽ rất ấn tượng ở đây!*
-**Cửa sổ Lịch sử dịch:**
-## ✨ Các tính năng chính
+**Main Translation Interface:**
+*An animated GIF demonstrating the auto-translation feature would be very impressive here!*
+**Translation History Window:**
+## ✨ Key Features
 
-* **Dịch thuật đa ngôn ngữ:** Hỗ trợ dịch giữa hơn 10 ngôn ngữ phổ biến:
-    * Tiếng Việt, Anh, Nhật, Trung, Hàn, Đức, Pháp, Nga, Tây Ban Nha, Ả Rập.
-* **Tự động phát hiện ngôn ngữ:** Tự động xác định ngôn ngữ nguồn khi người dùng nhập văn bản.
-* **Dịch gần thời gian thực:** Chương trình tự động dịch sau một khoảng nghỉ ngắn khi người dùng gõ văn bản, không cần nhấn nút.
-* **Hoán đổi ngôn ngữ:** Dễ dàng hoán đổi ngôn ngữ nguồn và đích cùng với nội dung văn bản chỉ bằng một cú nhấp chuột.
-* **Lịch sử dịch:**
-    * Tự động lưu lại tất cả các bản dịch.
-    * Hiển thị lịch sử được nhóm theo ngày một cách rõ ràng.
-    * Cho phép xóa toàn bộ lịch sử.
-* **Giao diện người dùng hiện đại:**
-    * Hiển thị ngày tháng hiện tại.
-    * Sử dụng hiệu ứng loading (ảnh GIF) mượt mà khi khởi động và khi thực hiện các tác vụ tốn thời gian, mang lại trải nghiệm người dùng tốt hơn.
+* **Multi-language Translation:** Supports translation between 10+ common languages:
+    * Vietnamese, English, Japanese, Chinese, Korean, German, French, Russian, Spanish, and Arabic.
+* **Auto-detect Language:** Automatically identifies the source language as the user types.
+* **Near Real-time Translation:** The program automatically translates after a short pause in typing, no button press required.
+* **Swap Languages:** Easily swap the source and target languages, along with their text content, with a single click.
+* **Translation History:**
+    * Automatically saves all translations.
+    * Displays history clearly grouped by date.
+    * Allows for clearing the entire history.
+* **Modern UI:**
+    * Displays the current date.
+    * Utilizes a smooth loading animation (GIF) on startup and during time-consuming tasks for a better user experience.
 
-## 🛠️ Công nghệ sử dụng
+## 🛠️ Tech Stack
 
-* **Ngôn ngữ:** Python 3
-* **Giao diện người dùng (GUI):** PyQt5
-* **Thư viện dịch thuật:** `googletrans` (một thư viện không chính thức cho Google Translate API)
-* **Công cụ:** Qt Designer, PyCharm/VS Code
+* **Language:** Python 3
+* **User Interface (GUI):** PyQt5
+* **Translation Library:** `googletrans` (an unofficial library for the Google Translate API)
+* **Tools:** Qt Designer, PyCharm/VS Code
 
-## 🚀 Cài đặt và Chạy dự án
+## 🚀 Setup and Installation
 
-Để chạy dự án này trên máy của bạn, hãy làm theo các bước sau:
+To run this project on your local machine, follow these steps:
 
-**1. Clone repository về máy:**
+**1. Clone the repository:**
 ```bash
-git clone [ĐƯỜNG-DẪN-REPO-GITHUB-CỦA-BẠN]
-cd [TÊN-THƯ-MỤC-DỰ-ÁN]
+git clone [https://github.com/hthoanganh/dichngonngu.git](https://github.com/hthoanganh/dichngonngu.git)
+cd dichngonngu
 ```
 
-**2. Tạo và kích hoạt môi trường ảo:**
-*Khuyên dùng để không ảnh hưởng đến các thư viện Python trên máy của bạn.*
+**2. Create and activate a virtual environment:**
+*Recommended to avoid conflicts with other Python libraries on your system.*
 ```bash
-# Tạo môi trường ảo (trên Windows)
+# Create a virtual environment (on Windows)
 python -m venv .venv
 
-# Kích hoạt môi trường ảo (trên Windows)
+# Activate the virtual environment (on Windows)
 .\.venv\Scripts\activate
 ```
 
-**3. Cài đặt các thư viện cần thiết:**
-*Tất cả các thư viện cần thiết đã được liệt kê trong file `requirements.txt`.*
+**3. Install necessary libraries:**
+*All required libraries are listed in the `requirements.txt` file.*
 ```bash
 pip install -r requirements.txt
 ```
 
-**4. Cấu trúc thư mục:**
-*Hãy chắc chắn rằng bạn có một thư mục tên là `load` và bên trong có chứa file `loading.gif` để hiệu ứng hoạt động.*
+**4. Directory Structure:**
+*Ensure you have a directory named `load` containing the `loading.gif` file for the animation to work.*
 ```
 your-project-folder/
 │
@@ -69,10 +69,10 @@ your-project-folder/
     └── loading.gif
 ```
 
-**5. Chạy chương trình:**
+**5. Run the application:**
 ```bash
 python main.py
 ```
 
 ---
-Cảm ơn bạn đã ghé thăm dự án!
+Thank you for checking out this project!
