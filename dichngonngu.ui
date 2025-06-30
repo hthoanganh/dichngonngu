@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>480</width>
+    <height>640</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>10</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>-10</y>
+      <width>481</width>
+      <height>631</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #0c3483, stop:0.5 #6b8cce, stop:1 #a2b6df);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="thoat">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>520</y>
+      <width>71</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>8</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Exit</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="ngonnguthu2">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>110</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Tahoma</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <item>
+     <property name="text">
+      <string>Chọn ngôn ngữ</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Tiếng Anh</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Tiếng Nhật</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Tiếng Trung</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Tiếng Hàn</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Tiếng Đức</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Tiếng Pháp </string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Tiếng Nga</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Tiếng Tây Ban Nha</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Tiếng Ả Rập</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="nhapvb_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>320</y>
+      <width>99</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Tahoma</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Bản dịch</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="ngonngudautien">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>110</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Tahoma</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <item>
+     <property name="text">
+      <string>Tự phát hiện</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Tiếng Anh</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Tiếng Nhật</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Tiếng Trung</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Tiếng Hàn</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Tiếng Đức</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Tiếng Pháp </string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Tiếng Nga</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Tiếng Tây Ban Nha</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Tiếng Ả Rập</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLineEdit" name="nhapvanban">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>180</y>
+      <width>421</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="placeholderText">
+     <string>  Nhập văn bản</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="bandich">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>350</y>
+      <width>421</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="tieude">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>441</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Times New Roman</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: white;</string>
+    </property>
+    <property name="text">
+     <string>CHƯƠNG TRÌNH DỊCH NGÔN NGỮ CỦA HOÀNG ANH</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="chonnn">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>70</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Tahoma</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Chọn ngôn ngữ</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>492</y>
+      <width>141</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #94adda;
+color: white;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>load/pikachu.png</normaloff>load/pikachu.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>120</width>
+      <height>130</height>
+     </size>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QDateEdit" name="ngaythangnam">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>70</y>
+      <width>111</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #94adda;
+color: white;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="chuyendoi">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>120</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>load/muiten.jpg</normaloff>load/muiten.jpg</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>25</width>
+      <height>25</height>
+     </size>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>480</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
