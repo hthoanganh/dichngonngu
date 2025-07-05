@@ -9,6 +9,8 @@ A desktop translation application built with Python and the PyQt5 library. The p
 ![Hoang Anh's language translation app_ảnh bìa](https://github.com/user-attachments/assets/214b5872-af6c-4ed4-a63c-c82a7d7bc023)
 
 *An animated GIF demonstrating the auto-translation feature would be very impressive here!*
+![loading](https://github.com/user-attachments/assets/028af9d7-8b9f-4c5f-98a6-a3afcf2b6dce)
+
 
 **Translation History Window:**
 ![image](https://github.com/user-attachments/assets/345e1d8c-21fc-46f6-b799-fbf9bc148878)
